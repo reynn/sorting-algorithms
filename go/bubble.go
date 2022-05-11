@@ -2,6 +2,7 @@ package sort
 
 import "golang.org/x/exp/constraints"
 
+// Bubble
 func Bubble[T constraints.Ordered](arr []T) {
 	if len(arr) < 1 {
 		return
@@ -16,6 +17,7 @@ func Bubble[T constraints.Ordered](arr []T) {
 	}
 }
 
+// OptimizedBubble
 func OptimizedBubble[T constraints.Ordered](arr []T) {
 	if len(arr) < 1 {
 		return

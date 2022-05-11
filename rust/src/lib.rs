@@ -1,8 +1,13 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+mod binary;
+mod bubble;
+mod bucket;
+mod counting;
+mod heap;
+mod insertion;
+mod linear;
+mod merge;
+mod quick;
+mod radix;
+mod selection;
+mod shell;
+
